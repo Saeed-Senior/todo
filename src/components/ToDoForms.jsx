@@ -13,7 +13,7 @@ function ToDoForms({addTask}) {
    }
 
    return (
-      <form className="w-[300px]" onSubmit={handleSubmit}>
+      <form className="sm:w-[415px] w-[300px]" onSubmit={handleSubmit}>
          <button><img className='max-w-[14px]' src={add} alt="ADD"/></button>
          <input className="bg-transparent p-2 outline-none" value={input} onChange={handleChange} type="text" placeholder="Новая задача"/>
       </form>
